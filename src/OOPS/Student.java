@@ -10,6 +10,17 @@ public class Student {
     public Student(){
         System.out.println("creating object");
     }
+
+    public Student(int a, String n, String c){
+       studentId = a;
+       studentName = n;
+       studentCity = c;
+
+        System.out.println("paramater consultant");
+    }
+
+
+
     //Methods
     public void study() {
         System.out.println(studentName + " is studying");
